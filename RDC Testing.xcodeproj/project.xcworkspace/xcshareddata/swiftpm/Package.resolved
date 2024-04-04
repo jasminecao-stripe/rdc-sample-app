@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lickability/Networking.git",
+      "state" : {
+        "revision" : "70ca4b66b124c6d9e02ec3db7bc825e826e480de",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
