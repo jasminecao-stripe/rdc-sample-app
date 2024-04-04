@@ -146,7 +146,7 @@ final class CheckDepositViewController: UIViewController {
         financialAccountTitleLabel.font = .systemFont(ofSize: 18)
         financialAccountVStack.addArrangedSubview(financialAccountTitleLabel)
         
-        financialAccountLabel.text = NSLocalizedString("fa_1L3it32HgIlSv8poXJfAcoYC", comment: "Financial Account ID")
+        financialAccountLabel.text = NSLocalizedString(K.APIInfo.financialAccount, comment: "Financial Account ID")
         financialAccountLabel.font = .systemFont(ofSize: 14)
         financialAccountLabel.textColor = .secondaryLabel
         financialAccountLabel.adjustsFontSizeToFitWidth = true
@@ -167,7 +167,7 @@ final class CheckDepositViewController: UIViewController {
         stripeAccountVStack.addArrangedSubview(stripeAccountTitleLabel)
         stripeAccountTitleLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        stripeAccountLabel.text = NSLocalizedString("acct_1L3irN2HgIlSv8po", comment: "Stripe Account ID")
+        stripeAccountLabel.text = NSLocalizedString(K.APIInfo.account, comment: "Stripe Account ID")
         stripeAccountLabel.font = .systemFont(ofSize: 14)
         stripeAccountLabel.textColor = .secondaryLabel
         stripeAccountLabel.adjustsFontSizeToFitWidth = true
